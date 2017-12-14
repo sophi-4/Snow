@@ -8,7 +8,7 @@ A simple visual aspect to represent alternate seasonal symbols in processing wit
 
 This is the initial starting stage for my snowflake design, taken from https://forum.processing.org/two/discussion/13646/making-a-snowflake. 
 
-Below shows the image of the initial snwoflake design which represents the season winter.
+Below shows the image of the initial snowflake design which represents the season winter.
 
 ![screen grab](https://github.com/sophi-4/Snow/blob/master/Screen%20Shot%202017-12-13%20at%2023.17.26.png)
 

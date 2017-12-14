@@ -60,7 +60,7 @@ translate(width/2, height/2);
 
 ## snow_2
 
-I have changed the background colour (as I found that the previous background did not represent the season winter) and have added functions to add three snowflakes (correctly positioned) shown diagonally when the user use the mouse press interaction.
+I have changed the background colour (as I found that the previous background did not represent the season winter) and have added functions to add three snowflakes (correctly positioned) shown diagonally when the user uses the mouse press interaction.
 
 I have altered the translate function in the code to show more than two snowflakes when the mouse press function is activated by a user.
 
@@ -85,7 +85,7 @@ translate(190, 110);
 
 I have aletered the radians function, to enable the snowflakes to rotate multiple times to create alternate shapes from the initial design (as shown in the images below).
 
-I have changed the 'snow.rotate (radians...)' function for the shapes that create the snowflake to rotate multiple times in order to create different shapes
+I have changed the 'snow.rotate (radians...)' function, for the shapes that create the snowflake to rotate multiple times, in order to create different shapes.
 
 ---
 ```
@@ -106,9 +106,9 @@ translate(190, 110);
 
 ## Flowers
 
-As seen in the images below I have changed the background (to reperesnt the grass) and have also changed the colour and shapes used (to represent a flower design) to appear as the season spring.
+As seen in the images below I have changed the background (to reperesent the grass) and have also changed the colour and shapes used (to represent a flower design) to appear as the season spring.
 
-Based off the snowflake code I have experimented with editing out and altering some of the existing code to create the flower design below.
+Based off the snowflake code I have experimented with editing out and altering some of the existing code to create the flower design shown in the images below.
 
 ---
 ```
@@ -207,6 +207,6 @@ background(179,226,221);
 
 
 
-This is a collaboration with Tat1 that changed my readme file by including the screenshots of my code. So now I understand the process of implementing images to my Github. 
+The incorporation of screenshots are a collaboration with Tat1 that changed my readme file by including the screenshots from my code. So now I understand the process of implementing images to my Github. 
 Modified by [Tat1](https://github.com/Tat1): Added the screenshots
 

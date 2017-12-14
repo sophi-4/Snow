@@ -1,17 +1,24 @@
 # Snow
+A simple visual aspect to represent alternate seasonal symbols in processing with a simple mouse press interaction (code used and refered from: https://forum.processing.org/two/discussion/13646/making-a-snowflake and https://processing.org/examples/pulses.html) 
+
+
+
 ---
 ## Initial_snowflake_2_
 
 This is the initial starting stage for my snowflake design, taken from https://forum.processing.org/two/discussion/13646/making-a-snowflake. 
 
+Below shows the image of the initial snwoflake design which represents the season winter.
+
 ![screen grab](https://github.com/sophi-4/Snow/blob/master/Screen%20Shot%202017-12-13%20at%2023.17.26.png)
+
 
 
 ## New_snow
 
-I have changed the background colour to clearly show the snowflake and have added some functions to the original code to add an extra snowflake to the design, but the positioning is of. 
+I have changed the background colour in order for the snowflake to clearly stand out and have added some functions to the original code to add an extra snowflake to the design, but the positioning of both snowflake designs are slightly off and cut of by the screen. 
 
-I have added in these functions to create a mouse press interaction. I have used the 'pulses' example given on the processing site: https://processing.org/examples/pulses.html 
+I have added in a mouse press interaction, for the snowflakes to be shown only when the user clicks on the mouse. For this I have used/referenced to the 'pulses' example given on the processing site: https://processing.org/examples/pulses.html 
 
 ---
 ```
@@ -53,13 +60,15 @@ translate(width/2, height/2);
 
 ## snow_2
 
-I have changed the background colour and have added function to add three snowflakes (correctly positioned) shown diagonally.
+I have changed the background colour (as I found that the previous background did not represent the season winter) and have added functions to add three snowflakes (correctly positioned) shown diagonally when the user use the mouse press interaction.
 
-I have altered the translate function in the code to show more than two snowflakes when the mouse press function is activated.
+I have altered the translate function in the code to show more than two snowflakes when the mouse press function is activated by a user.
 
 ---
 ```
 Code altered:
+background(61,93,154);
+
 translate(190, 110);
    shape(snow);
    point (0,0);
@@ -74,9 +83,9 @@ translate(190, 110);
 
 ## New_snowww
 
-I have added a rotation function. When mouse is pressed the shapes that make up the snowflake are rotated multiple times to create an alternate shape.
+I have aletered the radians function, to enable the snowflakes to rotate multiple times to create alternate shapes from the initial design (as shown in the images below).
 
-I have changed the 'snow.rotate radians' function' for the shaes that create the snowflake to rotate multiple time in order to create different shapes
+I have changed the 'snow.rotate (radians...)' function for the shapes that create the snowflake to rotate multiple times in order to create different shapes
 
 ---
 ```
@@ -97,9 +106,9 @@ translate(190, 110);
 
 ## Flowers
 
-As seen in the images below I have changed the background and have also changed the shape to show a flower design to represent the season spring.
+As seen in the images below I have changed the background (to reperesnt the grass) and have also changed the colour and shapes used (to represent a flower design) to appear as the season spring.
 
-Based off the snowflake code I have experimented with editing out one of the existing code to create different shapes. 
+Based off the snowflake code I have experimented with editing out and altering some of the existing code to create the flower design below.
 
 ---
 ```
@@ -151,9 +160,10 @@ translate(190, 110);
 ![screen grab](https://github.com/sophi-4/Snow/blob/master/Screen%20Shot%202017-12-13%20at%2023.26.26.png)
 
 
+
 ## Sun
 
- I have also changed the background to present a sky and the yellow colour of the shape used to appear as the sun for the season summer.
+As shown in the images below I have changed the colours and the shapes used (to present a sky and for the the shape to appear as the sun) for the season summer.
  
 Also on the basis of the initial snowflake code I have changed and experimented with editing out code to show a sun shape. 
 

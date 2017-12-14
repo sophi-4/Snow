@@ -2,22 +2,57 @@
 ---
 ## Initial_snowflake_2_
 
-This is the initial starting stage for my snowflake design. 
+This is the initial starting stage for my snowflake design, taken from https://forum.processing.org/two/discussion/13646/making-a-snowflake. 
+
 ![screen grab](https://github.com/sophi-4/Snow/blob/master/Screen%20Shot%202017-12-13%20at%2023.17.26.png)
+
 
 ## New_snow
 
-I have changes the background colour to clearly show the snowflake and have added some functions to the original code to add an extra snowflake to the design, but the positioning is of.
+I have changed the background colour to clearly show the snowflake and have added some functions to the original code to add an extra snowflake to the design, but the positioning is of. 
+I have added in these functions to create a mouse press interaction. I have used the 'pulses' example given on the processing site: https://processing.org/examples/pulses.html 
+
+'''
+Code added
+int angle = 0;
+ background(33,64,95);
+ noStroke();
+  fill(0, 102);
+  
+  void draw() {
+   //Draw only when mouse is pressed
+
+  //void mouseClicked () {
+    if (mousePressed == true) {
+      //angle += 10;   
+      float val = cos(radians(angle)) * 12.0;
+    for (int a = 0; a < 360; a += 75) {
+      float xoff = cos(radians(a)) * val;
+      float yoff = sin(radians(a)) * val;
+
+translate(width/2, height/2);
+   shape(snow);
+   //stroke (255);
+   point (0,0);
+   snow.rotate(radians(60));
+   i++;
+   if (i>6) { 
+   loop();  
+  } 
+  ```
+ 
 ![screen grab](https://github.com/sophi-4/Snow/blob/master/Screen%20Shot%202017-12-13%20at%2023.18.33.png)
 
 ![screen grab](https://github.com/sophi-4/Snow/blob/master/Screen%20Shot%202017-12-13%20at%2023.18.40.png)
 
 ![screen grab](https://github.com/sophi-4/Snow/blob/master/Screen%20Shot%202017-12-13%20at%2023.18.51.png)
 
+
 ## snow_2
 
 I have changed the background colour and have added function to add three snowflakes (correctly positioned) shown diagonally.
 ![screen grab](https://github.com/sophi-4/Snow/blob/master/Screen%20Shot%202017-12-13%20at%2023.20.09.png)
+
 
 ## New_snowww
 
@@ -25,6 +60,7 @@ I have added a rotation function. When mouse is pressed the shapes that make up 
 ![screen grab](https://github.com/sophi-4/Snow/blob/master/Screen%20Shot%202017-12-13%20at%2023.21.58.png)
 
 ![screen grab](https://github.com/sophi-4/Snow/blob/master/Screen%20Shot%202017-12-13%20at%2023.22.12.png)
+
 
 ## Flowers
 

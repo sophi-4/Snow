@@ -32,9 +32,9 @@ Based off the snowflake code I have experimented with editing out one of the exi
 As seen in the image above I have changed the background and have also changed the shape to show a flower design to represent the season spring.
 ![screeb grab](https://github.com/sophi-4/Snow/blob/master/Screen%20Shot%202017-12-13%20at%2023.26.06.png)
 
-![screen grab](https://github.com/sophi-4/Snow/blob/master/Screen%20Shot%202017-12-13%20at%2023.26.26.png)
-
 ![screen grab](https://github.com/sophi-4/Snow/blob/master/Screen%20Shot%202017-12-13%20at%2023.26.47.png)
+
+![screen grab](https://github.com/sophi-4/Snow/blob/master/Screen%20Shot%202017-12-13%20at%2023.26.26.png)
 
 
 ## Sun

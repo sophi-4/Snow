@@ -207,4 +207,6 @@ background(179,226,221);
 
 
 
+This is a collaboration with Tat1 that changed my readme file by including the screenshots of my code. So now I understand the process of implementing images to my Github. 
 Modified by [Tat1](https://github.com/Tat1): Added the screenshots
+
